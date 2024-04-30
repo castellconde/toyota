@@ -10,7 +10,7 @@ Se toma el total del CFDI para el atributo Amount
 
 Se concatena el atributo NoIdentificacion en el Shipment ID
 
-AddToyota-1.0-SNAPSHOT.jar [FilePath] [ShipmentId]
+AddToyota-1.0.jar [FilePath] [ShipmentId]
 
 
 Recibe como parametros:
