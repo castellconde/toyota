@@ -13,7 +13,7 @@
                 <exec.vmArgs></exec.vmArgs>
                 <exec.args>${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}</exec.args>
                 <exec.appArgs>C:\\Users\\caste\\Downloads\\0000000002_2024A000611D.xml 12271233</exec.appArgs>
-                <exec.mainClass>com.metalsa.addtoyota.AddXmlNode</exec.mainClass>
+                <exec.mainClass>com.toyota.addenda.AddXmlNode</exec.mainClass>
                 <exec.executable>java</exec.executable>
             </properties>
         </action>
@@ -30,7 +30,7 @@
                 <exec.vmArgs>-agentlib:jdwp=transport=dt_socket,server=n,address=${jpda.address}</exec.vmArgs>
                 <exec.args>${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}</exec.args>
                 <exec.appArgs>C:\\Users\\caste\\Downloads\\0000000002_2024A000611D.xml 12271233</exec.appArgs>
-                <exec.mainClass>com.metalsa.addtoyota.AddXmlNode</exec.mainClass>
+                <exec.mainClass>com.toyota.addenda.AddXmlNode</exec.mainClass>
                 <exec.executable>java</exec.executable>
                 <jpda.listen>true</jpda.listen>
             </properties>
@@ -47,7 +47,7 @@
             <properties>
                 <exec.vmArgs></exec.vmArgs>
                 <exec.args>${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}</exec.args>
-                <exec.mainClass>com.metalsa.addtoyota.AddXmlNode</exec.mainClass>
+                <exec.mainClass>com.toyota.addenda.AddXmlNode</exec.mainClass>
                 <exec.executable>java</exec.executable>
                 <exec.appArgs>C:\\Users\\caste\\Downloads\\0000000002_2024A000611D.xml 12271233</exec.appArgs>
             </properties>
