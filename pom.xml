@@ -11,12 +11,17 @@
             <artifactId>simplexml</artifactId>
             <version>3.1.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.2</version>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <exec.mainClass>com.toyota.addenda.AddXmlNode</exec.mainClass>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <exec.mainClass>com.toyota.adapters.ConsoleApplication</exec.mainClass>
     </properties>
     <build>
         <plugins>
@@ -30,7 +35,7 @@
                 <manifest>
                   <addClasspath>true</addClasspath>
                   <classpathPrefix>lib/</classpathPrefix>
-                  <mainClass>com.toyota.addenda.AddXmlNode</mainClass>
+                  <mainClass>com.toyota.adapters.ConsoleApplication</mainClass>
                 </manifest>
               </archive>
             </configuration>

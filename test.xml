@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" Total="100.00" Version="4.0">
+    <cfdi:Emisor Nombre="Test Company" Rfc="TEST123456789"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Description="Test Item" Importe="100.00" NoIdentificacion="PART123" ValorUnitario="100.00"/>
+    </cfdi:Conceptos>
+<cfdi:Addenda><AddendaToyota xmlns="http://www.pegasotecnologia.com/secfd/schemas/AddendaReceptorToyota"><TMMGT><shipmentOrder Amount="100.00" shipmentId="SHIP123#PART123"/></TMMGT></AddendaToyota></cfdi:Addenda></cfdi:Comprobante>

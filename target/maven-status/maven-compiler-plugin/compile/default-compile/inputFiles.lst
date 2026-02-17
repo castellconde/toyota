@@ -1,1 +1,7 @@
-C:\Users\caste\Documents\NetBeansProjects\AddToyota\src\main\java\com\toyota\addenda\AddXmlNode.java
+C:\Users\caste\toyota\src\main\java\com\toyota\adapters\ConsoleApplication.java
+C:\Users\caste\toyota\src\main\java\com\toyota\adapters\DomInvoiceRepository.java
+C:\Users\caste\toyota\src\main\java\com\toyota\adapters\PostgresConfigurationRepository.java
+C:\Users\caste\toyota\src\main\java\com\toyota\domain\AddendaService.java
+C:\Users\caste\toyota\src\main\java\com\toyota\ports\ConfigurationRepository.java
+C:\Users\caste\toyota\src\main\java\com\toyota\ports\InvoiceRepository.java
+C:\Users\caste\toyota\src\main\java\com\toyota\setup\DatabaseSetup.java

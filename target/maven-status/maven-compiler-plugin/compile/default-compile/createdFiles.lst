@@ -1,2 +1,7 @@
-com\toyota\addenda\AddXmlNode.class
-com\toyota\addenda\AddXmlNode$Addenda.class
+com\toyota\domain\AddendaService.class
+com\toyota\setup\DatabaseSetup.class
+com\toyota\adapters\DomInvoiceRepository.class
+com\toyota\ports\ConfigurationRepository.class
+com\toyota\adapters\ConsoleApplication.class
+com\toyota\adapters\PostgresConfigurationRepository.class
+com\toyota\ports\InvoiceRepository.class
